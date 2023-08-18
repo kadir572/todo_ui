@@ -26,6 +26,7 @@ const App = () => {
     const response = await api.get('/todos')
     setTodosList(response.data)
     setAddMenuToggle(false)
+    setName('')
   }
   return (
     <div className='h-screen bg-slate-400 py-8 px-6 max-w-full w-[768px] mx-auto'>

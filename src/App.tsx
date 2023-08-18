@@ -47,7 +47,7 @@ const App = () => {
         >
           <div className='min-h-0'>
             <div className='flex flex-col gap-6 py-6 px-6 bg-slate-900'>
-              <div className='flex gap-4'>
+              <div className='flex gap-4 flex-wrap'>
                 <label className='text-white text-xl' htmlFor='name'>
                   Name
                 </label>
